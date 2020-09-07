@@ -1,0 +1,28 @@
+/*タブ*/
+.tab-panel{
+  margin-top: 80px;
+}
+/*
+.scroll-area{
+  overflow: auto;
+}
+*/
+.tab-group{
+    display: inline-block;
+    justify-content: start;
+    margin-bottom: -8px;
+}
+.tab{
+    width:150px;
+    float:left;
+    flex-grow: 1;
+    list-style:none;
+    border:solid 1px #CCC;
+    text-align:center;
+    cursor:pointer;
+}
+.tab.is-active{
+    background:#000;
+    color:#fff;
+    transition: all 0.2s ease-out;
+}

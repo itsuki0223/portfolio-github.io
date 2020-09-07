@@ -1,0 +1,1 @@
+alarm.py,all_db.py,command.py,count_sensor.py,db.py,db_download.py,files_cleanup.py,kvs.py,main.py,main_sensor.py,modeB.py,modeC.py,modeD.py,screan.py,select_db.py,sensor10.py,sensor11.py,sensor12.py,sensor20.py,sensor22.py,sensor30.py,sensor31.py,sensor32.py,sensor33.py,twelite.py

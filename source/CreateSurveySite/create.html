@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>サイト管理ページ</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="question.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>アンケート作成ページ</h1>
+    </header>
+    <div class="container">
+        <div id="q">
+          <p>サイト名称：<input type="text" id="site-title"></p>
+          <br>
+        </div>
+        <br><br>
+      <form action="page1.php" method="post">
+        <input type="hidden" name="data" id="data">
+        <button type="button" name="button" onclick=createQuestion()>設問追加</button>
+        <input type="submit" value="確認" onclick="send_data()">
+      </form>
+  </div>
+  </body>
+</html>
